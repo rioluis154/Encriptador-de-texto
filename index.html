@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img class="logo" src="./imagen/Logo.png" alt="Logo de alura">
+        </a>
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptadorAviso">
+                <img class="imgAviso" src="./imagen/aviso.svg" alt="Imagen A">
+                <p class="textoAviso">solo letras minusculas y sin acento</p>
+            </div>
+            <div class="encriptadorContenedor">
+                <button class="btnEncriptar" type="submit">Encriptar</button>
+                <button class="btnDesencriptar" type="submit">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjetaContenedor">
+                <img class="imgMuneco" src="./imagen/Muñeco.png">
+                <p class="textoUno">Ningun mensaje fue encontrado</p>
+                <p class="textoDos">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea class="evaluar" type="mensaje" readonly></textarea>
+            <button class="btnCopiar" type="submit">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="copyrigth">&copy; copyrigth 2024 - Encriptador de texto - desarrollado por Luis Rio</p>
+        <a href="" rel="">
+            <img class="linked" src="./imagen/linkedin.svg" alt="Logo linkelin">
+        </a>
+        <a>
+            <img class="git" src="./imagen/github.svg" alt="Logo Github">
+        </a>
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+
+</body>
+</html>
